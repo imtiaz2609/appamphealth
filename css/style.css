@@ -1,0 +1,212 @@
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+   font-family: 'Work Sans', sans-serif;
+}
+img{
+   max-width: 100%;
+}
+.header{
+   z-index: 99999999999999;
+   background-color: #ddd !important;
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.589);
+}
+.navbar-brand:hover{
+   color: rgba(0, 0, 0, 0.671) !important;
+}
+.banner-section{
+   background: url(/img/mbr-10.jpg) no-repeat center center;
+   padding: 200px 0;
+   position: relative;
+}
+.banner-section::before{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: .5;
+}
+.banner-section .container .row .col{
+   z-index: 3;
+}
+.buy-now:hover{
+   box-shadow: 3px 3px 27px -3px #6278df;
+}
+.banner-form .banner-email:focus{
+   border-color: #6278df;
+   box-shadow: 3px 3px 27px -3px #6278df !important;
+}
+.banner-form .get-app-btn:hover{
+   background-color: white;
+   color: #6278df;
+   border-color: #6278df;
+   box-shadow: 3px 3px 27px -3px #6278df !important;
+}
+.number-description .number{
+   font-size: 55px;
+}
+.goals .description{
+   position: absolute;
+   top: 30%;
+}
+.goals .description h1{
+   font-size: 3rem;
+   font-weight: 500;
+}
+.about-card{
+   height: 230px !important;
+   overflow: hidden;
+}
+.card-img{
+   object-fit: cover;
+   object-position: center;
+}
+.card-img, .card-img-top {
+   border-top-right-radius: 0;
+}
+.card-img, .card-img-bottom {
+   border-bottom-right-radius: 0;
+}
+.about-card-body{
+   padding: 50px 30px !important;
+}
+.single-image{
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.94);
+   cursor: pointer;
+   position: relative;
+   transition: .4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.single-image:hover{
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.541);
+}
+.subscr-btn{
+   padding: 15px 20px !important;
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.377);
+   transition: .4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.subscr-btn:hover{
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.94);
+   background-color: black !important;
+   outline: black !important;
+   border:1px solid black !important;
+}
+.subscr-card{
+   cursor: pointer;
+   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.301);
+
+}
+.subscr-card:hover .subscr-btn{
+   color: #fff;
+   background-color: #0d6efd;
+   border-color: #0d6efd;
+}
+
+
+.author-info{
+   width: 194px;
+   margin: auto;
+}
+.author-info img{
+   width: 75px;
+}
+.author-details{
+   position: relative;
+   top: 11px;
+}
+.feedback-quoto{
+   font-size: 80px;
+   opacity: .2;
+}
+.feedback-text{
+   font-size: 20px;
+   width: 70%;
+   margin: auto;
+}
+
+.team-btn{
+   box-shadow: 0 1rem 3rem rgba(1, 12, 29, 0.363);
+   color: rgb(73, 73, 73);
+   transition: .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.team-btn:hover{
+   color: #fff;
+   background-color: rgb(73, 73, 73);
+   border: 1px solid rgb(73, 73, 73);
+}
+.member-img{
+   width: 140px;
+   position: relative;
+   top: -70px;
+   left: 20px;
+   box-shadow: 0 1rem 3rem rgba(1, 12, 29, 0.247);
+}
+.single-team-member .card{
+   box-shadow: 0 1rem 3rem rgba(1, 12, 29, 0.247);
+}
+.single-team-member .card-body{
+   margin-top: -50px;
+}
+.c-box{
+   border: 1px solid #ddd;
+   width: 650px;
+   border-radius: 8px;
+   box-shadow: 0 1rem 3rem rgba(1, 12, 29, 0.164);
+}
+.c-box input{
+   border: 1px solid rgb(185, 185, 185);
+   box-shadow: 0 1rem 3rem rgba(1, 12, 29, 0.103);
+}
+.c-box input:focus ,.c-box .message:focus{
+   border-color: #6278df;
+   box-shadow: 3px 3px 27px -3px #6278df;
+   outline: none;
+}
+.c-box input.name{
+   width: 48%;
+   margin-right: 3%;
+}
+.c-box input.phone{
+   width: 48%;
+}
+.c-box .message{
+   border: 1px solid rgb(185, 185, 185);
+   box-shadow: 0 1rem 3rem rgba(1, 12, 29, 0.103);
+   min-height: 200px;
+}
+.c-submit-btn{
+   background-color: #6278df;
+}
+.c-submit-btn:hover{
+   background-color: white;
+   color: #6278df;
+   border-color: #6278df;
+   box-shadow: 3px 3px 27px -3px #6278df;
+}
+.btn-link{
+   background: none;
+   border-color: #5ba533;
+   color: #5ba533;
+   text-decoration: none;
+   margin-bottom: 1rem;
+}
+.btn-link:hover{
+   color: #ffffff;
+   background-color: #5ba533;
+   border-color: #5ba533;
+   box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.btn-link-android{
+   padding: 1rem 2.2rem !important;
+   color: #ffffff;
+   background-color: #5ba533;
+   border-color: #5ba533;
+   box-shadow: 3px 3px 27px -3px #5ba533;
+}
+.btn-link-android:hover{
+   color: #ffffff;
+   background-color: black;
+   border-color: black;
+   box-shadow: 3px 3px 27px -3px black;
+   box-shadow: none;
+}

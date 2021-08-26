@@ -1,0 +1,536 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>AppAmp Health Tracker App Demo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="img/logo.png">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Cascading Style Sheets  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <!--[if lt IE 9]>
+	<script src="js/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 w-100 header">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="#"><img src="img/logo.png" style="width: 48px;" alt=""> AppAmp
+        Theme</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fw-bolder text-success text-decoration-underline" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold " href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Live Demo
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Time Planner App</a></li>
+              <li><a class="dropdown-item" href="#">Health Tracker App</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Demo Blocks
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Headers</a></li>
+              <li><a class="dropdown-item" href="#">Features</a></li>
+              <li><a class="dropdown-item" href="#">Pricing Table & Article</a></li>
+              <li><a class="dropdown-item" href="#">Team & Testimonials</a></li>
+              <li><a class="dropdown-item" href="#">Gallery & Video</a></li>
+              <li><a class="dropdown-item" href="#">Forms & Maps & Footers</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-outline-primary px-4 fw-bold shadow buy-now">Buy Now</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <section class="banner-section">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="banner-caption text-center text-white w-50 mx-auto">
+
+            <h4>It is created to watch your health</h4>
+            <h1 class="mt-4">Health Tracker App</h1>
+
+            <form action="#" class="mt-5 banner-form">
+              <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-12 mb-2">
+                  <input type="email" class="form-control form-control-lg p-3 banner-email" placeholder="E-mail Address"
+                    required>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-12">
+                  <button type="submit" class="btn btn-success btn-lg w-100 p-3 fw-bold get-app-btn">Get App</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Number Description -->
+  <section class="number-description" style="padding: 5rem 0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center number-div">
+          <span class="fw-bold number ">100+</span>
+          <p class="text-muted fs-5">Health programs</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center number-div">
+          <span class="fw-bold number">50+</span>
+          <p class="text-muted fs-5">Individual parameters</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center number-div">
+          <span class="fw-bold number">2500+</span>
+          <p class="text-muted fs-5">Active users</p>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 text-center number-div">
+          <span class="fw-bold number">10X</span>
+          <p class="text-muted fs-5">Training efficiency</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Goals Section -->
+  <section class="goals py-5" style="background-color: #f7f9ff;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-8 col-xl-8 col-lg-8 position-relative">
+          <div class="description">
+            <h1 class=" mb-4">Activity Goals To Improve Health</h1>
+            <p class="lead fw-normal fs-5">Being active is important to our health, but how much or what kind of
+              activity do you need? Health Tracker App worked with the World Health Organisation to develop two activity
+              goals based on WHO's physical activity recommendations shown to impact health - Move Minutes and Heart
+              Points</p>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4">
+          <div class="img-thumbnail">
+            <img src="/img/015.jpg" alt="" class="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="title text-center">
+            <h1 class="mb-4">Learn more about our application</h1>
+            <h4 class="text-muted mb-5 lead fs-4">Coaching you to a healthier and more active life</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-3 ">
+          <div class="card mb-3 about-card shadow-lg" style="max-width: 540px;">
+            <div class="row g-0 h-100">
+              <div class="col-md-4">
+                <img src="/img/022.jpg" class="img-fluid rounded-start h-100 card-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body about-card-body">
+                  <h5 class="card-title">HEART POINTS</h5>
+                  <p class="card-text lead text-muted fs-6">Activities that get your heart pumping harder have
+                    tremendous health benefits for your heart and mind.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-3">
+          <div class="card mb-3 about-card shadow-lg" style="max-width: 540px;">
+            <div class="row g-0 h-100">
+              <div class="col-md-4">
+                <img src="/img/mbr-7.jpg" class="img-fluid rounded-start h-100 card-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body about-card-body">
+                  <h5 class="card-title">MOVE MINUTES</h5>
+                  <p class="card-text lead text-muted fs-6">When it comes to your health, it’s important to move more
+                    and sit less. Earn Move Minutes for all your activity.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-3">
+          <div class="card mb-3 about-card shadow-lg" style="max-width: 540px;">
+            <div class="row g-0 h-100">
+              <div class="col-md-4">
+                <img src="/img/mbr-8.jpg" class="img-fluid rounded-start h-100 card-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body about-card-body">
+                  <h5 class="card-title">FITNESS ASSESSMENT</h5>
+                  <p class="card-text lead text-muted fs-6">Your expert coach will take you through an assessment in
+                    order to create your personal plan for success.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-3">
+          <div class="card mb-3 about-card shadow-lg" style="max-width: 540px;">
+            <div class="row g-0 h-100">
+              <div class="col-md-4">
+                <img src="/img/mbr-5.jpg" class="img-fluid rounded-start h-100 card-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body about-card-body">
+                  <h5 class="card-title">NUTRITIONAL SUCCESS</h5>
+                  <p class="card-text lead text-muted fs-6">You'll get a personalized nutrition plan built specifically
+                    for your needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-12 mb-3">
+          <div class="card mb-3 about-card shadow-lg" style="max-width: 540px;">
+            <div class="row g-0 h-100">
+              <div class="col-md-4">
+                <img src="/img/mbr-12.jpg" class="img-fluid rounded-start h-100 card-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body about-card-body">
+                  <h5 class="card-title">WORKOUTS</h5>
+                  <p class="card-text lead text-muted fs-6">We build the workouts for you, you follow them and get
+                    results. App will take you through each expert-built workout, set by set.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-6 col-md-12 ">
+          <div class="card mb-3 about-card shadow-lg" style="max-width: 540px;">
+            <div class="row g-0 h-100">
+              <div class="col-md-4">
+                <img src="/img/mbr-13.jpg" class="img-fluid rounded-start h-100 card-img" alt="">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body about-card-body">
+                  <h5 class="card-title">MOTIVATION</h5>
+                  <p class="card-text lead text-muted fs-6">Your coach works with you on a daily basis to keep you
+                    motivated and on track. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Application Image section -->
+  <section class="image-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="image-sec-title text-center mb-5">
+            <h1>Look at our application</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img class="rounded-3 single-image" src="/img/022.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img class="rounded-3 single-image" src="/img/04.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img class="rounded-3 single-image" src="/img/033.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img class="rounded-3 single-image" src="/img/05.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <img class="rounded-3 single-image" src="/img/background18.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 ">
+          <img class="rounded-3 single-image" src="/img/022.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription section -->
+  <section class="subscription-sec py-5" style="background-color: #f7f9ff;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="subscr-title text-center">
+            <h1 class="mb-4 ">Start using our app today </h1>
+            <h4 class="mb-5 text-muted lead fs-4">Being active is important to our health, but how much or what kind of
+              activity do you need?</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+          <div class="card subscr-card">
+            <div class="card-body p-5">
+              <h2 class="card-title mb-3 fs-1">Starter Plan</h2>
+              <h6 class="card-subtitle text-muted mb-5">For simple users</h6>
+              <div class="card-text">
+                <p class="text-muted fs-4"><i class="fas fa-check text-primary mx-1"></i> HEART POINTS </p>
+                <p class="text-muted fs-4"><i class="fas fa-check text-primary mx-1"></i> MOVE MINUTES </p>
+                <p class="text-muted fs-4"><i class="fas fa-times text-danger mx-2"></i> FITNESS ASSESSMENT </p>
+                <p class="text-muted fs-4"><i class="fas fa-times text-danger mx-2"></i> NUTRITIONAL SUCCESS </p>
+              </div>
+              <div class="subscr-card-btn text-center mt-5">
+                <a href="#" class="btn btn-outline-primary px-4 fw-bold fs-5 subscr-btn text-center ">Get Access Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <div class="card subscr-card">
+            <div class="card-body p-5">
+              <h2 class="card-title mb-3 fs-1">User Plan</h2>
+              <h6 class="card-subtitle  text-muted mb-5">For athletes involved in intense programs</h6>
+              <div class="card-text">
+                <p class="text-muted fs-4"><i class="fas fa-check text-primary mx-2"></i> HEART POINTS </p>
+                <p class="text-muted fs-4"><i class="fas fa-check text-primary mx-2"></i> MOVE MINUTES </p>
+                <p class="text-muted fs-4"><i class="fas fa-check text-primary mx-2"></i> FITNESS ASSESSMENT </p>
+                <p class="text-muted fs-4"><i class="fas fa-check text-primary mx-2"></i> NUTRITIONAL SUCCESS </p>
+              </div>
+              <div class="subscr-card-btn text-center mt-5">
+                <a href="#" class="btn btn-outline-primary px-4 fw-bold fs-5 subscr-btn text-center ">Get Access Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feedback Section -->
+  <section class="feedback-sec py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h4 class="mb-4 text-muted">Feedback from our users</h4>
+          <h1 class="">What do users say about our application</h1>
+          <span class="mb-1 d-block feedback-quoto"> <i class="fas fa-quote-left"></i></span>
+          <p class="feedback-text lead">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis
+            vero accusantium excepturi aperiam eius sit quis nobis."</p>
+          <div class="author-info mt-4 ">
+            <img class="float-start rounded-circle me-3 shadow-lg" src="/img/face1.jpg" alt="">
+            <div class="author-details text-start">
+              <h5 class="mb-0">Jason Doe</h5>
+              <span class="text-muted">User</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team-sec py-5" style="background-color: #f7f9ff;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="mb-5">Our Team and History</h1>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis vero
+            accusantium excepturi aperiam eius sit quis nobis cupiditate voluptatem tempora a odio, ad, officiis ex
+            harum saepe fuga at modi quibusdam voluptas voluptatum!</p>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis perspiciatis vero
+            accusantium excepturi aperiam eius sit quis nobis cupiditate voluptatem tempora a odio, ad, officiis ex
+            harum saepe fuga at modi quibusdam voluptas voluptatum!</p>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+          <div class="single-team-member mt-5">
+            <div class="card">
+              <img src="./img/face1.jpg" class="card-img-top rounded-circle member-img" alt="">
+              <div class="card-body p-4">
+                <h4 class="card-title fw-bold">Jason Doe</h4>
+                <h6 class="card-subtitle mb-3 text-muted">Programmer</h6>
+                <p class="card-text text-muted lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-light team-btn rounded-lg fw-bold">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+          <div class="single-team-member mt-5">
+            <div class="card">
+              <img src="./img/face2.jpg" class="card-img-top rounded-circle member-img" alt="">
+              <div class="card-body p-4">
+                <h4 class="card-title fw-bold">Amanda Swon</h4>
+                <h6 class="card-subtitle mb-3 text-muted">Designer</h6>
+                <p class="card-text text-muted lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-light team-btn rounded-lg fw-bold">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+          <div class="single-team-member mt-5">
+            <div class="card">
+              <img src="./img/face3.jpg" class="card-img-top rounded-circle member-img" alt="">
+              <div class="card-body p-4">
+                <h4 class="card-title fw-bold">Andrew Smith</h4>
+                <h6 class="card-subtitle mb-3 text-muted">Support</h6>
+                <p class="card-text text-muted lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-light team-btn rounded-lg fw-bold">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 mb-4">
+          <div class="single-team-member mt-5">
+            <div class="card">
+              <img src="./img/face4.jpg" class="card-img-top rounded-circle member-img" alt="">
+              <div class="card-body p-4">
+                <h4 class="card-title fw-bold">Jane Olsen</h4>
+                <h6 class="card-subtitle mb-3 text-muted">Manager</h6>
+                <p class="card-text text-muted lead fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="#" class="btn btn-light team-btn rounded-lg fw-bold">Website</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-sec py-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col text-center">
+          <h3 class="lead text-muted pb-4 fs-4">We need to know your opinion</h3>
+          <h1 class="pb-4">Write to us and we will contact you</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="c-box p-5 m-auto">
+            <div class="c-box-title text-center pb-4">
+              <h3>Send us a Message</h3>
+            </div>
+            <form action="#">
+              <input type="email" name="" class="p-4 rounded-3 fs-5 w-100 mb-3 text-muted" placeholder="E-mail Address" required>
+              <input type="text" name="" class="p-4 rounded-3 fs-5 mb-3 name text-muted" placeholder="Your Name" required>
+              <input type="text" name="" class="p-4 rounded-3 fs-5 mb-3 phone text-muted" placeholder="Your Phone" required>
+              <textarea class="p-4 rounded-3 fs-5 mb-3 w-100 message text-muted" placeholder="Message" required> </textarea>
+              <div class="c-submit text-center pt-3">
+                <button type="submit" class="btn btn-primary px-5 py-2 fs-4 fw-bold c-submit-btn">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Download Section -->
+  <section class="app-link-sec py-5" style="background-color: #f7f9ff;">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h4 class="lead pb-3 fs-4 ">I t is created to watch your health</h4>
+          <h1 class="pb-5">Get our app for Android & iPhone</h1>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="app-link text-center">
+            <a href="#" class="btn-outline-success btn-lg btn fw-bold px-5 py-3 me-3 btn-link btn-link-apple"> <i class="fab fa-apple"></i> App Store</a>
+            <a href="#" class="btn-outline-success btn-lg btn fw-bold px-4 py-3 btn-link btn-link-android"> <i class="fab fa-android"></i> Google Play</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <img src="./img/mbr-11.jpg" alt="" class="w-50 rounded-3 link-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <section class="footer-section py-3" style="background-color: rgb(238, 238, 238);">
+    <div class="container">
+      <div class="col text-center">
+        <h2 class="m-0 fs-5 footer">	&copy; Copyright 2021 <span class="text-success fw-bold">Imtiaz Hossain</span> - All Rights Reserved</h2>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

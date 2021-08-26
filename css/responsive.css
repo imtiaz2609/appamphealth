@@ -1,0 +1,96 @@
+@media (max-width: 1400px) {
+   .goals .description{
+      top:26%;
+   }
+   .goals .description h1{
+      font-size: 45px;
+   }
+}
+@media (max-width: 1200px) {
+   .banner-caption{
+      width: 80% !important;
+   }
+   .goals .description{
+      top: 20%;
+   }
+   .goals .description h1{
+      font-size: 38px;
+   }
+   .goals .description p{
+      font-size: 20px !important;
+   }
+}
+
+@media (max-width: 992px) {
+   .goals .description{
+      position: relative !important;
+      top: 0%;
+   }
+   .about-card{
+      max-width: 100% !important;
+   }
+   .feedback-text{
+      width: 100% !important;
+      font-size: 17px;
+   }
+   .link-img{
+      width: 90% !important;
+   }
+
+}
+
+@media (max-width: 768px) {
+   .banner-caption{
+      width: 80% !important;
+   }
+   .number-div{
+      margin-bottom: 1rem;
+   }
+   .number{
+      font-size: 40px !important;
+   }
+   .goals .description{
+      position: relative !important;
+      top: 0%;
+   }
+   .about-card{
+      height: auto !important;
+   }
+   .about-card img{
+      height: 290px !important;
+   }
+   .c-box{
+      width: 100%;
+      padding: 2rem !important;
+   }
+   .c-box input.name{
+      width: 100%;
+      margin-right: 0;
+   }
+   .c-box input.phone{
+      width: 100%;
+   }
+   .link-img{
+      width: 90% !important;
+   }
+}
+@media (max-width: 576px) {
+   .goals .description h1{
+      font-size: 30px;
+   }
+   .goals .description p{
+      font-size: 18px !important;
+   }
+   .subscr-card .card-body{
+      padding: 25px 15px !important;
+   }
+   .btn-link-apple{
+      margin-right: 0 !important;
+   }
+   .link-img{
+      width: 90%;
+   }
+   .footer{
+      font-size: 15px !important;
+   }
+}
